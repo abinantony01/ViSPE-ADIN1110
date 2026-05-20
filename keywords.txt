@@ -1,0 +1,74 @@
+# Syntax Coloring for ViSPE ADIN1110 Library
+
+# ---------------------------------------------------------------------------
+# Class / Type names  (KEYWORD1)
+# ---------------------------------------------------------------------------
+ViSPE                   KEYWORD1
+Vi_SPE_Advanced         KEYWORD1
+Vi_SinglePairEthernet   KEYWORD1
+
+# ---------------------------------------------------------------------------
+# Methods / Functions  (KEYWORD2)
+# ---------------------------------------------------------------------------
+begin                   KEYWORD2
+sendData                KEYWORD2
+getRxData               KEYWORD2
+getRxAvailable          KEYWORD2
+getLinkStatus           KEYWORD2
+setMac                  KEYWORD2
+getMac                  KEYWORD2
+setDestMac              KEYWORD2
+indenticalMacs          KEYWORD2
+setRxCallback           KEYWORD2
+setLinkCallback         KEYWORD2
+setSPIInstance          KEYWORD2
+setSPIPins              KEYWORD2
+
+init                    KEYWORD2
+unInit                  KEYWORD2
+enable                  KEYWORD2
+disable                 KEYWORD2
+reset                   KEYWORD2
+syncConfig              KEYWORD2
+getDeviceId             KEYWORD2
+getStatCounters         KEYWORD2
+ledEn                   KEYWORD2
+setLoopbackMode         KEYWORD2
+setTestMode             KEYWORD2
+addAddressFilter        KEYWORD2
+clearAddressFilter      KEYWORD2
+submitTxBuffer          KEYWORD2
+submitRxBuffer          KEYWORD2
+setPromiscuousMode      KEYWORD2
+getPromiscuousMode      KEYWORD2
+setChunkSize            KEYWORD2
+getChunkSize            KEYWORD2
+setCutThroughMode       KEYWORD2
+getCutThroughMode       KEYWORD2
+setFifoSizes            KEYWORD2
+getFifoSizes            KEYWORD2
+clearFifos              KEYWORD2
+getMseLinkQuality       KEYWORD2
+registerCallback        KEYWORD2
+setUserContext          KEYWORD2
+getUserContext          KEYWORD2
+writeRegister           KEYWORD2
+readRegister            KEYWORD2
+phyWrite                KEYWORD2
+phyRead                 KEYWORD2
+
+# ---------------------------------------------------------------------------
+# Constants  (LITERAL1)
+# ---------------------------------------------------------------------------
+VISPE_VERSION_MAJOR      LITERAL1
+VISPE_VERSION_MINOR      LITERAL1
+VISPE_VERSION_PATCH      LITERAL1
+VISPE_NUM_BUFS           LITERAL1
+VISPE_FRAME_SIZE         LITERAL1
+VISPE_MAC_SIZE           LITERAL1
+DEFAULT_ETH_INT_Pin      LITERAL1
+DEFAULT_ETH_RESET_Pin    LITERAL1
+DEFAULT_ETH_SPI_CS_Pin   LITERAL1
+DEFAULT_ETH_SPI_SCK_Pin  LITERAL1
+DEFAULT_ETH_SPI_MOSI_Pin LITERAL1
+DEFAULT_ETH_SPI_MISO_Pin LITERAL1
