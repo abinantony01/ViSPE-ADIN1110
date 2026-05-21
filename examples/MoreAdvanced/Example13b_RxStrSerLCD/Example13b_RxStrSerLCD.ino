@@ -65,7 +65,7 @@ static void rxCallback(void *pCBParam, uint32_t Event, void *pArg)
 
     pRxBufDesc = (adi_eth_BufDesc_t *)pArg;
 
-//    Serial.print("Recieved: ");
+//    Serial.print("Received: ");
 //
 //    Serial.printf((char *)&pRxBufDesc->pBuf[14]);
     memset(display_text, '\0', 100);

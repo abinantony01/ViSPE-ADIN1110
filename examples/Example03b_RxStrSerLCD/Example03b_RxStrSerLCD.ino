@@ -55,7 +55,7 @@ void setup()
     Serial.begin(115200);
     while(!Serial);
 
-    Serial.println("Single Pair Ethernet - Example 3b Recieve String from 3a and Display on SerLCD");
+    Serial.println("Single Pair Ethernet - Example 3b Receive String from 3a and Display on SerLCD");
     /* Start up adin1110 */
     if(!adin1110.begin(deviceMAC)) 
     {
@@ -64,7 +64,7 @@ void setup()
     }
     Serial.println("Connected to ADIN1110 MACPHY");
 
-    /* Set up callback, to control what we do when data is recieved and when link changed*/
+    /* Set up callback, to control what we do when data is received and when link changed*/
     adin1110.setRxCallback(rxCallback);
     adin1110.setLinkCallback(linkCallback);
 

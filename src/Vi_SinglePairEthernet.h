@@ -110,7 +110,7 @@ public:
     void setMac         (uint8_t *mac);
     void getMac         (uint8_t *mac);
     void setDestMac     (uint8_t *mac);
-    bool indenticalMacs (uint8_t *mac1, uint8_t *mac2);
+    bool identicalMacs (uint8_t *mac1, uint8_t *mac2);
 
     /* ---- Callbacks ------------------------------------------------------ */
     void setRxCallback   (void (*cbFunc)(uint8_t *, int, uint8_t *));

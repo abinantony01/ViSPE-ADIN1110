@@ -99,7 +99,7 @@ static void rxCallback(void *pCBParam, uint32_t Event, void *pArg)
 
     pRxBufDesc = (adi_eth_BufDesc_t *)pArg;
 
-    Serial.println("Recieved: ");
+    Serial.println("Received: ");
     for(int i = 0; i < pRxBufDesc->trxSize; i++)
     {
       Serial.print(pRxBufDesc->pBuf[i]);

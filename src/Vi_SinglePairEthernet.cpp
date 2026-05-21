@@ -234,7 +234,7 @@ void ViSPE::setMac(uint8_t *mac)     { if (mac) memcpy(macAddr,     mac, VISPE_M
 void ViSPE::getMac(uint8_t *mac)     { if (mac) memcpy(mac, macAddr,     VISPE_MAC_SIZE); }
 void ViSPE::setDestMac(uint8_t *mac) { if (mac) memcpy(mac, destMacAddr, VISPE_MAC_SIZE); }
 
-bool ViSPE::indenticalMacs(uint8_t *mac1, uint8_t *mac2)
+bool ViSPE::identicalMacs(uint8_t *mac1, uint8_t *mac2)
 {
     if (!mac1 || !mac2) return false;
     return (mac1[0]==mac2[0] && mac1[1]==mac2[1] && mac1[2]==mac2[2] &&
