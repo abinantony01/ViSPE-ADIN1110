@@ -6,6 +6,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.0.1] — 2026-05-21
+
+### Fixed
+- Updated GitHub repository URL in `library.properties`.
+- Renamed the `Example01a_BasicSendRecieve` example folder and file to `Example01a_BasicSendReceive`.
+- Fixed multiple spelling errors (`recieve`, `recieved`, `conterpart`) across example sketches.
+- Fixed `indenticalMacs()` function typo to `identicalMacs()` across the library API and examples.
+
 ## [1.0.0] — 2026-05-20
 
 ### Added

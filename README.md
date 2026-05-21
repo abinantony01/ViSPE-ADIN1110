@@ -1,5 +1,5 @@
 # ViSPE ADIN1110 — Single Pair Ethernet Library
-**Version 1.0.0** | Vi Micro Systems Pvt Ltd
+**Version 1.0.1** | Vi Micro Systems Pvt Ltd
 
 **Author:** Abin Antony  
 **Email:** abinantony.dev@gmail.com  

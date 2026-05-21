@@ -1,7 +1,7 @@
 /*
  * =============================================================================
  *  ViSPE ADIN1110 — Single Pair Ethernet Library
- *  Version  : 1.0.0
+ *  Version  : 1.0.1
  * =============================================================================
  *  Author   : Abin Antony
  *  Email    : abinantony.dev@gmail.com
@@ -32,7 +32,7 @@
  * ---------------------------------------------------------------------- */
 #define VISPE_VERSION_MAJOR  (1)
 #define VISPE_VERSION_MINOR  (0)
-#define VISPE_VERSION_PATCH  (0)
+#define VISPE_VERSION_PATCH  (1)
 
 /* -------------------------------------------------------------------------
  * Default MAC addresses (Analog Devices example values — change per node)
